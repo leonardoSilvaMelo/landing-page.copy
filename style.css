@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header nav{
+    background-color: rgb(37, 90, 48);
+    padding: 9px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: auto;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+}
+
+header ul li{
+    margin-right: 20px;
+}
+
+header ul li a{
+    color: white;
+}
+
+header ul li a button{
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: white;
+}
+
+.botoes{
+    display: flex;
+}
+
+.botoes a button{
+    background-color: rgba(255, 255, 255, 0);
+    border-color: white;
+    border-style: solid;
+}
+
+.botoes a button:hover{
+    cursor: pointer;
+    transition: 0.9s;
+    background-color: white;
+    color: rgb(37, 90, 48);
+}
+
+.linha{
+    width: 10rem;
+    height: 5px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background-color: white;
+
+}
+
+.home{
+    padding: 15rem;
+    background-image: url(./images/fundo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 40vh;
+}
+
+.home div{
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+
+.home div h1{
+    font-size: 9rem;
+}
+
+.home div p{
+    font-size: 2rem;
+}
+
+
+
+
+.articles{
+    padding: 15rem;
+}
+
+.articles h2{
+    text-align: center;
+    margin-top: -5rem;
+}
+
+.articles hr{
+    background-color: black;
+}
+.cartoes{
+    padding: 10px;
+    display: flex;
+    gap: 2rem;
+
+}
+
+.cartoes div p{
+    margin: 50px auto;
+    text-align: center;
+}
+
+.cartoes div img{
+    width: 20rem;
+    height: 15rem;
+}
+
+.cartoes div{
+    box-shadow: 5px 5px 10px black;
+}
+
+.cartoes div:hover{
+    box-shadow: 5px 5px 25px black;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.about{
+   
+    background-color: wheat;
+    display: flex;
+}
+
+.about div img{
+    width: 100%;
+    height: 100%;
+}
+
+.texto-sobre{
+    padding: 5rem;
+    
+}
+
+.texto-sobre h2{
+    text-align: center;
+    margin: 10px;
+    font-size: 2.5rem;
+}
+
+.texto-sobre p{
+    margin-top: 2rem;
+}
+
+.formulario{
+    padding: 10rem;
+    text-align: center;
+    background-color: rgb(95, 136, 95);
+    
+}
+
+.formulario form h2{
+    color: white;
+    margin: 10px auto;
+    font-size: 2rem;
+}
+
+.formulario form p{
+    color: white;
+    margin-bottom: 10px;
+}
+
+#email{
+    width: 20rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+}
+
+#button{
+    background-color: rgb(95, 136, 95);
+    border-color: white;
+    color: white;
+    border-style: solid;
+    padding: 10px;
+    width: 12rem;
+}
+
+#button:hover{
+    cursor: pointer;
+    transition: 0.9s;
+    background-color: white;
+    color: rgb(95, 136, 95);
+}
+
+footer{
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icones i{
+    margin-left: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.links ul{
+    display: flex;
+}
+
+.links ul li{
+    margin-right: 10px;
+}
+
+.links ul li a{
+    color: black;
+    font-size: 1.3rem;
+}
